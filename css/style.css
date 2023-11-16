@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/all.jpg);
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+header span {
+  color: #372f2d;
+  font-weight: bold;
+  font-size: 10px;
+}
+.navbar-nav a {
+  font-size: 18px;
+  color: #372f2d !important;
+  font-weight: bold;
+  margin-right: 25px;
+  margin-top: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar-nav a:hover {
+  color: #e43d30 !important;
+}
+header button {
+  background: url(../img/btn.png);
+  color: white !important;
+  padding: 0px 20px !important;
+  border-radius: 0px 5px 5px 0px !important;
+}
+header .hp {
+  color: #e43d30 !important;
+}
+.sh {
+  border: 2px solid #372f2d !important ;
+  padding: 3px 7px;
+}
+/* banner css */
+.banner {
+  width: 100%;
+  background-color: white;
+}
+.owl-carousel .item img {
+  height: 80vh;
+}
+.carousel-inner {
+  position: relative;
+}
+.owl-nav {
+  display: none;
+}
+.owl-dots {
+  position: absolute;
+  bottom: 12px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.owl-dots span {
+  background-color: #ffffff !important;
+}
+.bg1 {
+  position: absolute;
+  top: 30%;
+  color: white;
+  left: 5%;
+}
+.bg1 h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 43px;
+  position: relative;
+}
+.bg1 h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70%;
+  height: 7px;
+  background-color: white;
+}
+.bg1 h2 {
+  font-size: 85px;
+  font-family: "Anton", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bg1 h4 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+}
+.bg1 a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  margin-top: 25px;
+  padding: 10px 35px;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.bg1 a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+.bg3 {
+  position: absolute;
+  top: 30%;
+  color: white;
+  left: 5%;
+}
+.bg3 h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 43px;
+  position: relative;
+}
+.bg3 h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 40%;
+  height: 7px;
+  background-color: white;
+}
+.bg3 h2 {
+  font-size: 85px;
+  font-family: "Anton", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bg3 h4 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+}
+.bg3 a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  margin-top: 25px;
+  padding: 10px 40px;
+  background-size: cover;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.bg3 a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+.bg2 {
+  position: absolute;
+  top: 20%;
+  color: white;
+  left: 5%;
+}
+.bg2 h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 43px;
+  position: relative;
+}
+.bg2 h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 45%;
+  height: 7px;
+  background-color: white;
+}
+.bg2 h2 {
+  font-size: 80px;
+  font-family: "Anton", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.bg2 h4 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.bg2 a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  margin-top: 25px;
+
+  background-size: cover;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.bg2 a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+.bg5 {
+  position: absolute;
+  top: 20%;
+  color: white;
+  left: 5%;
+}
+.bg5 h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 43px;
+  position: relative;
+}
+.bg5 h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70%;
+  height: 7px;
+  background-color: white;
+}
+.bg5 h2 {
+  font-size: 80px;
+  font-family: "Anton", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.bg5 h4 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.bg5 a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  margin-top: 25px;
+
+  background-size: cover;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.bg5 a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+
+/* oder css */
+.odd {
+  width: 100%;
+}
+.odd-con {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  padding: 50px 0px;
+}
+.odd-con a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+.odd-con a {
+  margin-top: 50px;
+  padding: 10px 35px;
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+}
+.odd-con span {
+  font-size: 34px;
+  text-transform: uppercase;
+}
+.odd-con h2 {
+  font-size: 53px;
+  text-transform: uppercase;
+  position: relative;
+}
+.odd-con h2::after {
+  position: absolute;
+  content: "";
+  bottom: -13px;
+  width: 49%;
+  height: 8px;
+  background-color: white;
+  left: 330px;
+}
+/* new item css */
+.n-item {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.vox {
+  background-image: url(../img/tx.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.vox span {
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+}
+.vox h3 {
+  font-size: 37px;
+  font-family: "Merriweather", serif;
+}
+.a-right p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #372f2d;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.a-right a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  padding: 12px 25px;
+}
+.a-right a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+/* menu item css  */
+.menu-item {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.vom {
+  background-image: url(../img/tx.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+  margin-top: 125px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.vom span {
+  font-size: 37px;
+  font-family: "Merriweather", serif;
+}
+.vom h3 {
+  font-size: 43px;
+  font-family: "Merriweather", serif;
+}
+.m-right p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #372f2d;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.m-right a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  padding: 12px 25px;
+}
+.m-right a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+/* join css  */
+.join {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.join-con {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 45px 0px;
+}
+.join-con span {
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.join-con span::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 100%;
+  background-color: white;
+  bottom: -16px;
+  left: 0%;
+}
+.join-con p {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.join-con a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  padding: 12px 25px;
+}
+.join-con a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+/* happy css */
+.happy {
+  width: 100%;
+}
+.h-right {
+  text-align: left;
+  padding: 0px 110px;
+}
+
+.h-right span {
+  font-family: "Merriweather", serif;
+  font-size: 57px;
+  color: #372f2d;
+}
+.h-right h2 {
+  font-size: 123px;
+  color: #372f2d;
+  font-family: "Anton", sans-serif;
+  position: relative;
+}
+.h-right h2::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: -8px;
+  width: 73%;
+  height: 8px;
+  background-color: #372f2d;
+}
+.h-right p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 200;
+  margin-top: 25px;
+}
+.h-right a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  padding: 12px 25px;
+  margin-top: 25px;
+}
+.h-right a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+/* club css */
+.club {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.club-con {
+  display: flex;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  padding: 45px 0px;
+}
+.c-left {
+  text-align: right;
+  margin-right: 25px;
+}
+.c-right {
+  text-align: left;
+}
+.c-left span {
+  font-size: 55px;
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+}
+.c-left h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 52px;
+  text-transform: uppercase;
+  position: relative;
+}
+.c-left h3::after {
+  position: absolute;
+  content: "";
+  bottom: -9px;
+  left: 392px;
+  height: 4px;
+  width: 41%;
+  background-color: white;
+}
+.c-right span {
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  top: 9%;
+  letter-spacing: 1px;
+}
+.c-right {
+  position: relative;
+}
+.c-right a {
+  background-image: url(../img/bgbtn.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white !important;
+  padding: 12px 25px;
+  margin-top: 76px;
+}
+.c-right a:hover {
+  background-image: url(../img/bgbtn.png);
+  background-position: bottom;
+  color: white !important;
+}
+/* footer css */
+.footer {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.sc {
+  margin: 20px 0px;
+}
+.sc img {
+  width: 6%;
+}
+
+.f-bottom li {
+  list-style: none;
+  display: inline-block;
+
+  margin-left: 10px;
+
+  border-right: 1px solid #372f2d;
+  padding-right: 8px;
+}
+.f-bottom li:last-child {
+  border: none;
+}
+.f-bottom a {
+  font-size: 12px;
+  color: #372f2d;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer p {
+  color: #372f2d;
+  font-size: 14px;
+}
+
+.f-bottom a:hover {
+  color: #e43d30;
+}
+
+.bottom-logo {
+  display: block;
+  margin-bottom: 30px;
+}
+.sc {
+  display: inline;
+  padding: 10px 5px;
+  width: 50%;
+}
+.sctop {
+  display: inline;
+}
+.scbottom {
+  display: none;
+}
+
+.sc:hover .scbottom {
+  display: inline;
+}
+.sc:hover .sctop {
+  display: none;
+}
+footer .name {
+  color: #e43d30;
+  font-size: 15px;
+}
